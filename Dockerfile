@@ -1,5 +1,5 @@
-# Minimal Docker image for Minimap2 v2.17 + samtools v1.12 using Minimap2 image base
-FROM niemasd/minimap2:latest
+# Minimal Docker image for Minimap2 v2.17 + samtools v1.12 using Minimap2 2.17 image base
+FROM niemasd/minimap2:2.17
 MAINTAINER Niema Moshiri <niemamoshiri@gmail.com>
 
 # install samtools
