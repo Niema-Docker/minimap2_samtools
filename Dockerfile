@@ -5,7 +5,7 @@ MAINTAINER Niema Moshiri <niemamoshiri@gmail.com>
 # install samtools
 RUN apk update && \
     apk add bash bzip2-dev xz-dev && \
-    wget -qO- "https://github.com/samtools/samtools/releases/download/1.12/samtools-1.12.tar.bz2" | tar -xj && \
+    wget -qO- "https://github.com/samtools/samtools/releases/download/1.20/samtools-1.20.tar.bz2" | tar -xj && \
     cd samtools-* && \
     ./configure --without-curses && \
     make && \
